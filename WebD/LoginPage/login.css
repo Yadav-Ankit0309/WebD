@@ -1,0 +1,33 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(50, 50, 73);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+input {
+    color: rgba(255, 255, 255, 0.808);
+    background-color: rgb(30, 30, 44);
+    border: 0;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 175px;
+    height: 20px;
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 60px;
+    padding: 0;
+}

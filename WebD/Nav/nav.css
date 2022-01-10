@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    background: grey;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: 100px;
+    color: rgba(255, 223, 80, 0.863);
+}
+
+a:hover {
+    background: rgba(255, 223, 80, 0.863);
+    color: grey;
+    border-radius: 10px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="Pay.css">
+</head>
+
+<body>
+    <div class="for">
+        <h1>Payment Form</h1>
+        <hr>
+        <h2>User Information</h2>
+
+        <form action="" method="get">
+            <p>Name:* <input type="text" placeholder="Oom Pandey"></p>
+            <p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <p>Male <input type="radio" name="gender" id="male"> Female <input type="radio" name="gender" id="female"></p>
+                </fieldset>
+            </p>
+
+            <p> Address: <textarea name="address" id="" cols="30" rows="10" placeholder="Enter Your Address"></textarea></p>
+            <p>Email: <input type="email" name="email" id="email" placeholder="pandey123@gmail.com"></p>
+            <p>Pincode: <input type="text" name="pincode" id="pincode" placeholder="123456"></p>
+
+            <h2>Payment Information</h2>
+            <p>Card type: <select name="card" id="card">
+            <option value="none">Select Yout Card</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">Master</option>
+            <option value="rupay">Rupay</option>
+        </select></p>
+
+            <p>Card Number:* <input type="text" placeholder="1234 5678 9000"></p>
+            <p>Expiration Date:* <input type="date"></p>
+            <p>CVV:* <input type="text" placeholder="123"></p>
+            <input type="submit" value="Pay Now">
+
+        </form>
+    </div>
+</body>
+
+</html>
